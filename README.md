@@ -13,7 +13,6 @@ The website consists of five main sections: Hero, Service/About, Skills, Project
 - React Tilt: A lightweight 3D parallax tilt effect library for React.
 - React Intersection Observer: A wrapper around the Intersection Observer API for React.
 - email.js: A service for sending emails directly from JavaScript.
-- Sanity: A headless CMS (Content Management System) for structured content.
 
 ## Project Structure
 

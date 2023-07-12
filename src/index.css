@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-header {
+    @apply text-text-blue md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] font-bold
+}
+
+.paragraph {
+    @apply text-text-gray font-medium text-[16px] sm:text-[18px] leading-6 sm:leading-7
+}

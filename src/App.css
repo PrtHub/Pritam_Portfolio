@@ -1,0 +1,198 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.yellowBg {
+
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(358deg, #FB9632 0%, #FDBE06 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(358deg, #FB9632 0%, #FDBE06 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(358deg, #FB9632 0%, #FDBE06 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FB9632', endColorstr='#FDBE06', GradientType=1 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(358deg, #FB9632 0%, #FDBE06 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(358deg, #FB9632 0%, #FDBE06 100%);
+
+}
+
+.blue__gradient {
+  background:  #c7caf7; 
+  filter: blur(400px);
+}
+
+.light__gradient {
+  background:  #c2f3fc; 
+  filter: blur(50px);
+}
+
+.gray__gradient {
+  background:  #ddecf0; 
+  filter: blur(220px);
+}
+
+
+
+
+/* yellow : #f8a623 */
+/* yellow2: #f2aa35 */
+/* light-blue: #aeeefb */
+/* purple: #bfc2f5 */
+/* gray-blue: #ddecf0 */
+/* text-blue: #061e48 */
+
+.floating-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.floating-icon {
+  position: absolute;
+  
+}
+.floating-icon {
+  position: absolute;
+}
+
+.star {
+  top: 30%;
+  left: 50%;
+  color: #FFD700;
+}
+
+.linkedin {
+  top: 40%;
+  right: 20%;
+  color: #0A66C2;
+  cursor: pointer;
+}
+
+.twitter {
+  top: 80%;
+  right: 40%;
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+.github {
+  top: 60%;
+  right: 10%;
+  color: #211F1F;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .twitter {
+    top: 30%;
+    left: 10%;
+  }
+
+  .linkedin {
+    top: 30%;
+    left: 50%;
+  }
+
+  .star {
+    top: 80%;
+    right: 40%;
+  }
+
+  .github {
+    bottom: 50%;;
+    right: 15%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .github {
+    top: 30%;
+    left: 10%;
+    opacity: 0.8;
+  }
+
+  .linkedin {
+    top: 30%;
+    left: 50%;
+    opacity: 0.8;
+  }
+
+  .twitter {
+    top: 40%;
+    left: 70%;
+    opacity: 0.8;
+  }
+
+  .star {
+    top: 90%;
+    right: 30%;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 640px) {
+  .twitter {
+    top: 40%;
+    left: 20%;
+  }
+
+  .linkedin {
+    top: 30%;
+    left: 70%;
+  }
+
+  .github {
+    top: 40%;
+    left: 70%;
+  }
+
+  .star {
+    top: 80%;
+    right: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .twitter {
+    top: 40%;
+    left: 20%;
+  }
+
+  .linkedin {
+    top: 30%;
+    left: 70%;
+  }
+
+  .github {
+    top: 40%;
+    left: 80%;
+  }
+
+  .star {
+    top: 80%;
+    left: 20%;
+  }
+}

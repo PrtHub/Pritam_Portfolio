@@ -4,7 +4,6 @@ import { Tilt } from "react-tilt";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 import { fadeIn } from "../utils";
 
-
 const ProjectCard = ({
   name,
   description,
@@ -50,10 +49,8 @@ const ProjectCard = ({
               </section>
             </div>
           </section>
-          <section className="mt-5 p-2">
-            <h3 className="text-text-blue font-semibold text-[24px]">
-              {name}
-            </h3>
+          <section className="mt-2 p-2">
+            <h3 className="text-text-blue font-semibold text-[24px]">{name}</h3>
             <p className="mt-2 text-[#9ca5ba] text-[14px]">{description}</p>
           </section>
         </motion.div>

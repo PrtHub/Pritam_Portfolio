@@ -79,10 +79,10 @@ export const navLinks = [
   {
     name: "Ecommerce Store",
     description:
-      "E-commerce Store offering features like shopping cart management, filter products, order placement, persisted state, smooth animations, beautiful icons, and responsive design.",
+      "E-commerce Store offering features like shopping cart management, filter products, search products, order placement, persisted state, smooth animations, beautiful icons, and responsive design.",
     image: ecom,
-    source_code_link: "https://github.com/PrtHub/Avion-Ecommerce-App",
-    project_live_link: "https://avion-ecommerce-store.netlify.app/",
+    source_code_link: "https://github.com/PrtHub/Euphoria-EcommerceApplication",
+    project_live_link: "https://euphoria-fashion.netlify.app/",
   },
   {
     name: "Movie Application",

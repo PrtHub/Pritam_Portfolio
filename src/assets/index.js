@@ -17,6 +17,10 @@ import ecom from "./work/ecom.png";
 import logistic from "./work/logistic.png";
 import music from "./work/music.png";
 import movie from "./work/movie.png";
+import anime from "./work/anime.png";
+import quiz from "./work/quiz.png";
+import rps from "./work/rps.png";
+import ip from "./work/ip.png"
 
 export {
   css,
@@ -35,5 +39,9 @@ export {
   ecom,
   music,
   logistic,
-  movie
+  movie,
+  anime,
+  quiz,
+  rps,
+  ip
 };

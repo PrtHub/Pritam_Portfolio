@@ -50,7 +50,7 @@ const Projects = () => {
         </section>
         <section className="flex flex-wrap justify-center xs:justify-start  gap-7">
           {displayedProjects?.map((project, index) => (
-            <ProjectCard key={project.title} index={index} {...project} />
+            <ProjectCard key={project.id} index={index} {...project} />
           ))}
         </section>
         <motion.button

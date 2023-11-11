@@ -29,16 +29,10 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
+      .sendForm(
         "service_exm4ifr",
         "template_9nvp88h",
-        {
-          form_name: form.name,
-          to_name: "Pritam",
-          form_email: form.email,
-          to_email: "pritamattwork@gmail.com",
-          message: form.message,
-        },
+         formRef.current,
         "HnOt3sGhWabbLUnWe"
       )
       .then(
@@ -59,6 +53,7 @@ const Contact = () => {
         }
       );
   };
+
 
 
 
@@ -118,6 +113,7 @@ const Contact = () => {
                 placeholder="What you want to say?"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-text-gray rounded-lg outline-none  border-yellow-1 border-[1px] font-medium"
               />
+            <p className="text-xs text-red-500">**Important: When reaching out, please ensure to include your email address within the message.</p>
             </label>
             <motion.button
               variants={buttonVariants()}

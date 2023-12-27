@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 import Sectionwrapper from "../Hoc/SectionWrapper";
 import { buttonVariants, slideIn, textVariant } from "../utils";
 
-
 const Contact = () => {
   const formRef = useRef();
 
@@ -32,7 +31,7 @@ const Contact = () => {
       .sendForm(
         "service_exm4ifr",
         "template_gmgueml",
-         formRef.current,
+        formRef.current,
         "HnOt3sGhWabbLUnWe"
       )
       .then(
@@ -54,16 +53,10 @@ const Contact = () => {
       );
   };
 
-
-
-
   return (
     <>
       <div className="w-full flex flex-col items-start justify-start gap-5">
-        <motion.h1
-          variants={textVariant(0.3)}
-          className="text-header"
-        >
+        <motion.h1 variants={textVariant(0.3)} className="text-header">
           Get in touch
           <br />
           <span className="text-yellow-1">contact</span>
@@ -113,7 +106,10 @@ const Contact = () => {
                 placeholder="What you want to say?"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-text-gray rounded-lg outline-none  border-yellow-1 border-[1px] font-medium"
               />
-            <p className="text-xs text-red-500">**Important: When reaching out, please ensure to include your email address within the message.</p>
+              <p className="text-xs text-red-500">
+                **Important: When reaching out, please ensure to include your
+                email address within the message.
+              </p>
             </label>
             <motion.button
               variants={buttonVariants()}

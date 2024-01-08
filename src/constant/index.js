@@ -1,4 +1,4 @@
-import { anime, booking, css, ecom, git, html, ip, javascript, logistic, movie, music, quiz, reactjs, redux, rps, santa1, santa2, santa3, santa4, sass, tailwind } from "../assets";
+import { anime, booking, css, ecom, git, html, ip, javascript, logistic, movie, music, quiz, reactjs, redux, rps, santa1, santa2, santa3, santa4, sass, tailwind, typescript } from "../assets";
 
 
 export const navLinks = [
@@ -29,6 +29,10 @@ export const navLinks = [
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
     },
     {
       name: "React JS",

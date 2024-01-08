@@ -2,6 +2,7 @@ import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import typescript from "./tech/typescript.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -20,11 +21,12 @@ import movie from "./work/movie.png";
 import anime from "./work/anime.png";
 import quiz from "./work/quiz.png";
 import rps from "./work/rps.png";
-import ip from "./work/ip.png"
+import ip from "./work/ip.png";
 
 export {
   css,
   javascript,
+  typescript,
   html,
   reactjs,
   tailwind,
@@ -43,5 +45,5 @@ export {
   anime,
   quiz,
   rps,
-  ip
+  ip,
 };

@@ -1,13 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import { buttonVariants, heroVariants } from "../utils";
-// import { AiFillLinkedin, AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-// import { FaStar } from "react-icons/fa";
 import FloatingIcons from "./FloatingIcons";
 
-
 const Hero = () => {
-
   return (
     <>
       <header className="w-full relative h-[500px] md:h-[600px] max-w-7xl mx-auto">
@@ -15,8 +11,9 @@ const Hero = () => {
         <div className="absolute top-40 left-0 lg:-left-14 z-[0] w-20 h-40 lg:w-36 lg:h-80 rounded-full blue__gradient" />
 
         {/* Content */}
-        <section className={`max-w-xl md:max-w-2xl flex flex-col items-start justify-start px-5 sm:px-16 absolute top-40 xs:top-48 inset-0 gap-5 sm:gap-8 z-40`}   
-         >
+        <section
+          className={`max-w-xl md:max-w-2xl flex flex-col items-start justify-start px-5 sm:px-16 absolute top-40 xs:top-48 inset-0 gap-5 sm:gap-8 z-40`}
+        >
           <motion.h1
             className="text-text-blue lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] font-semibold"
             initial={{ opacity: 0, y: -50 }}
@@ -31,9 +28,11 @@ const Hero = () => {
             animate="show"
             variants={heroVariants(0.7)}
           >
-            Frontend Developer passionate about creating visually stunning and
-            user-friendly web applications. Eager to collaborate, expand my
-            skills, and make a meaningful impact in the industry.
+            Full-stack Developer with a passion for building beautiful,
+            user-friendly web applications. Experienced in frontend and backend
+            development, I am eager to collaborate with diverse teams and expand
+            my skills to create innovative solutions and meaningful impacts in
+            the industry.
           </motion.p>
           <motion.div
             initial="initial"
@@ -55,8 +54,8 @@ const Hero = () => {
         {/* Background Animation */}
         <div className="absolute top-40 right-0 md:right-10 z-[0] w-24 h-24 sm:w-32 sm:h-32 lg:w-52 lg:h-52 rounded-full light__gradient" />
 
-         {/* floating icons */}
-      <FloatingIcons/>
+        {/* floating icons */}
+        <FloatingIcons />
       </header>
     </>
   );

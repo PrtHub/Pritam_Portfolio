@@ -1,4 +1,4 @@
-import { anime, booking, css, ecom, git, html, ip, javascript, logistic, movie, music, quiz, reactjs, redux, rps, santa1, santa2, santa3, santa4, sass, tailwind, typescript } from "../assets";
+import { anime, atlas, booking, css, ecom, express, facelink, git, html, ip, javascript, mongo, movie, next, node, post, prisma, quiz, reactjs, realo, redux, rps, santa1, santa2, santa3, santa4, sass, tailwind, typescript } from "../assets";
 
 
 export const navLinks = [
@@ -39,6 +39,30 @@ export const navLinks = [
       icon: reactjs,
     },
     {
+      name: "Next JS",
+      icon: next,
+    },
+    {
+      name: "Node JS",
+      icon: node,
+    },
+    {
+      name: "Express JS",
+      icon: express,
+    },
+    {
+      name: "Mongo DB",
+      icon: mongo,
+    },
+    {
+      name: "Prisma",
+      icon: prisma,
+    },
+    {
+      name: "PostgreSQL",
+      icon: post,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -56,30 +80,57 @@ export const navLinks = [
     },
   ]
 
- export const services = [
+  export const services = [
     {
       title: "Frontend Developer",
-      description: "If you have a unique web application idea, I can turn it into reality.",
+      description: "Transforming your unique web application ideas into visually stunning and user-friendly interfaces.",
       icon: santa3,
     },
     {
-      title: "React Developer",
-      description: "I can build powerful single-page applications (SPAs) and dynamic user interfaces.",
+      title: "Next JS/React JS Developer",
+      description: "Building powerful single-page applications (SPAs) and dynamic user interfaces with Next.js and React.js.",
       icon: santa2,
     },
     {
-      title: "Responsive Web development",
-      description: "I specialize in creating visually appealing and responsive web applications.",
+      title: "MERN Stack Developer",
+      description: "Specializing in the full MERN stack to create visually appealing and responsive web applications.",
       icon: santa1,
     },
     {
-      title: "User Interface Design",
-      description: "With my keen eye for design and understanding of user experience principles, I can create captivating and user-friendly interfaces.",
+      title: "Full Stack Developer",
+      description: "Leveraging my skills in both frontend and backend development to create comprehensive and efficient web solutions.",
       icon: santa4,
     },
   ];
 
  export const projects = [
+  {
+    id: 11,
+    name: "Realo",
+    description:
+      "This project is built using the MERN stack, Tailwind CSS, Redux Toolkit, and Firebase. It is a comprehensive solution for managing real estate properties, providing a seamless user experience for both property owners and seekers.",
+    image: realo,
+    source_code_link: "https://github.com/PrtHub/realo",
+    project_live_link: "https://realo.onrender.com",
+  },
+  {
+    id: 12,
+    name: "FaceLink",
+    description:
+      "It's a video conference web application built with the latest Next.js and TypeScript. This project replicates Zoom, enabling users to securely log in, create meetings, and access various functionalities such as recording, screen sharing, and managing participants.",
+    image: facelink,
+    source_code_link: "https://github.com/PrtHub/FaceLink",
+    project_live_link: "https://face-link-vc.vercel.app",
+  },
+  {
+    id: 3,
+    name: "Atlas - A LMS Platform",
+    description:
+      "Built on the latest tech stack, this LMS platform offers an intuitive learning experience with features like student dashboard, teacher mode, HLS video player, and CRUD functionality",
+    image: atlas,
+    source_code_link: "https://github.com/PrtHub/atlas-platform",
+    project_live_link: "https://atlas-psi-khaki.vercel.app",
+  },
   {
     id: 1,
     name: "Ecommerce Store",
@@ -97,24 +148,6 @@ export const navLinks = [
     image: movie,
     source_code_link: "https://github.com/PrtHub/Movie-Application",
     project_live_link: "https://tmdb-pr.netlify.app/",
-  },
-  {
-    id: 3,
-    name: "Web Music",
-    description:
-      "Music web page built with React, Tailwind CSS, React Redux, Redux Toolkit, Shazam API, and Vite. Features include listening to songs, searching songs, viewing song lyrics, and accessing trending songs and artists.",
-    image: music,
-    source_code_link: "https://github.com/PrtHub/Musix",
-    project_live_link: "https://musix-pr.netlify.app",
-  },
-  {
-    id: 4,
-    name: "Logistic and Transport",
-    description:
-      "Sleek and user-friendly Logistics and Transportation UI built with React and Tailwind CSS. Features responsive design, easy customization, and well-structured codebase.",
-      image: logistic,
-    source_code_link: "https://github.com/PrtHub/TransitFlow",
-    project_live_link: "https://github.com/PrtHub/TransitFlow",
   },
   {
     id: 5,

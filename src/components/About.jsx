@@ -37,7 +37,7 @@ const ServiceCard = ({ title, description, icon, index }) => {
           <h1 className="text-xl font-bold text-center text-text-blue">
             {title}
           </h1>
-          <p className="text-center text-[#9ca5ba] font-medium text-sm sm:text-base">
+          <p className="text-center text-[#9ca5ba] font-medium text-sm ">
            {limitedDescription}
            {!showDescription && 
            <button className="text-[#80aefd] text-sm font-medium hover:text-text-blue focus:outline-none transition-all duration-200 " onClick={() => setShowDescription(!showDescription)}>
@@ -74,7 +74,7 @@ const About = () => {
           variants={textVariant(0.5)}
            className="paragraph"
            >
-           I am a passionate front-end developer specializing in responsive web development and user interface design. With expertise in React.js, HTML5, CSS3, and JavaScript, I bring ideas to life through clean code and seamless interactions, ensuring visually appealing and highly functional web applications. Contact me at pritamattwork@gmail.com to discuss collaborations, job opportunities, or any web development queries. Let's create amazing digital experiences together!
+          I am a passionate full-stack developer specializing in responsive web development and user interface design. With expertise in React.js, Next.js, Node.js, Express, MongoDB, Prisma, TypeScript and JavaScript. I bring ideas to life through clean code and seamless interactions, ensuring visually appealing and highly functional web applications. I also have strong backend development skills, allowing me to create comprehensive and efficient web solutions. Contact me at <strong>pritamfinds@gmail.com</strong> to discuss collaborations, job opportunities, or any web development queries. Let's create amazing digital experiences together!
           </motion.p>
         </section>
         <section className="flex flex-wrap justify-center xs:justify-start  gap-10">

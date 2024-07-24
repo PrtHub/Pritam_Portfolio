@@ -51,7 +51,7 @@ const ProjectCard = ({
           </section>
           <section className="mt-2 p-2">
             <h3 className="text-text-blue font-semibold text-[24px]">{name}</h3>
-            <p className="mt-2 text-[#9ca5ba] text-[14px]">{description}</p>
+            <p className="mt-2 text-[#9ca5ba] text-[14px] line-clamp-4">{description}</p>
           </section>
         </motion.div>
       </Tilt>

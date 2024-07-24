@@ -32,7 +32,7 @@ const Skills = () => {
               <img
                 src={tech.icon}
                 alt={tech.name}
-                className="w-full h-full text-center"
+                className="w-full h-full text-center object-cover"
               />
             </motion.section>
           </Tilt>
